@@ -57,14 +57,14 @@ python rpg_game_filename.py
  ### Game Dashborad
  <img alt="Game Dashboard" src="./screenshots/dashboard.jpg" width="60%"/>  
 
- ### Holdings Chart
- <img alt="Holdings chart" src="./screenshots/Holdings_chart.png" width="60%"/>
+ ### Game 1. Aetherian Gauntlet: Role-Based Adventure
+ <img alt="Game 1" src="./screenshots/game1.jpg" width="60%"/>
 
- ### Holdings Data
- <img alt="Holdings data" src="./screenshots/holdings_data.png" width="60%"/>
+ ### Game 2. Chronos Legacy: Time Manipulation Adventure
+ <img alt="Game 2" src="./screenshots/game2.jpg" width="60%"/>
 
-### Buy Window
-<img alt="Action window" src="./screenshots/buy-window.png" width="60%"/>
+### Game 3. Echoes of the Void: Cosmic Horror Mystery
+<img alt="Game 3" src="./screenshots/game3.jpg" width="60%"/>
 
 ## How to Play
 
