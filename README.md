@@ -53,11 +53,20 @@ pip install pygame
 python rpg_game_filename.py
 ```
 
-## How to Play
+## Screenshots
+ ### Game Dashborad
+ <img alt="Game Dashboard" src="./screenshots/dashboard.png" width="60%"/>  
 
-### General Controls
-- **Mouse**: Navigate menus and click buttons
-- **ESC**: Close the game window
+ ### Holdings Chart
+ <img alt="Holdings chart" src="./screenshots/Holdings_chart.png" width="60%"/>
+
+ ### Holdings Data
+ <img alt="Holdings data" src="./screenshots/holdings_data.png" width="60%"/>
+
+### Buy Window
+<img alt="Action window" src="./screenshots/buy-window.png" width="60%"/>
+
+## How to Play
 
 ### Gameplay Flow
 1. **Main Menu**: Choose which of the three games to play
