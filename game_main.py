@@ -4,17 +4,13 @@ import math
 import random
 from pygame import mixer
 
-# Initialize pygame
 pygame.init()
 mixer.init()
 
-# Screen dimensions
 SCREEN_WIDTH, SCREEN_HEIGHT = 1024, 768
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("RPG Game Collection")
 
-# Colors
-# Colors - Make sure these are all defined as RGB tuples
 BACKGROUND = (20, 12, 28)
 TEXT_COLOR = (222, 207, 184)
 HIGHLIGHT = (255, 215, 0)
@@ -26,13 +22,11 @@ ROGUE_COLOR = (50, 150, 50)
 CHRONOS_COLOR = (50, 100, 180)
 VOID_COLOR = (80, 30, 100)
 
-# Fonts
 title_font = pygame.font.Font(None, 72)
 heading_font = pygame.font.Font(None, 48)
 text_font = pygame.font.Font(None, 36)
 small_font = pygame.font.Font(None, 28)
 
-# Game state
 class GameState:
     def __init__(self):
         self.current_screen = "main_menu"
@@ -67,13 +61,11 @@ class GameState:
         self.fade_alpha = 0
         self.fade_direction = 1
         
-        # Chronos Legacy state
         self.time_era = "present"
         self.timeline_integrity = 100
         self.chronos_choices = {"Preservation": 0, "Intervention": 0, "Knowledge": 0}
         self.chronos_scenario = 1
         
-        # Echoes of the Void state
         self.sanity = 100
         self.void_scenario = 1
         void_colors = [(30, 10, 40), (40, 15, 50), (50, 20, 60)]
@@ -86,7 +78,6 @@ class GameState:
             color = random.choice(void_colors)
             self.void_particles.append([x, y, size, speed, color])
         
-        # Generate particles for background
         for _ in range(50):
             x = random.randint(0, SCREEN_WIDTH)
             y = random.randint(0, SCREEN_HEIGHT)
