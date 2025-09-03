@@ -55,7 +55,7 @@ python rpg_game_filename.py
 
 ## Screenshots
  ### Game Dashborad
- <img alt="Game Dashboard" src="./screenshots/dashboard.png" width="60%"/>  
+ <img alt="Game Dashboard" src="./screenshots/dashboard.jpg" width="60%"/>  
 
  ### Holdings Chart
  <img alt="Holdings chart" src="./screenshots/Holdings_chart.png" width="60%"/>
